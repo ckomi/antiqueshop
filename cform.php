@@ -1,17 +1,9 @@
 <?php
+$to = "vukovicmiomir@yahoo.com";
+$subject = $_POST['subject'];
+$txt = "Hello world!";
+$message = $_POST['message'];
+$headers = "From: Antiqe Shop";
 
-if (isset($_POST['submit'])) {
-  $name = $_POST['name'];
-  $subject = $_POST['subject'];
-  $mailfrom = $_POST['email'];
-  $message = $_POST['message'];
-
-  $mailTo = "vukovicmiomir@yahoo.com";
-  $headers = "From: ".$mailfrom;
-  $txt = "You have new mail frooooooom: ".$name.".\n\n".$message;
-
-  mail($mailTo, $subject, $txt, $headers);
-  header("Location: contact.html?mailsend");
-}
-
+mail($to,$message,"$subject",$headers);
 ?>
