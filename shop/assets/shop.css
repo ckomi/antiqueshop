@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-  background-image: url("antique/img/background.jpg");
+  background-image: url("img/background.jpg");
 }
 
 /*NAVIGACIONI BAR*/
@@ -9,7 +9,7 @@ body {
 .navbar {
   margin-bottom: 0px;
   border-radius: 0px;
-  background-image: url("antique/img/navground.jpg");
+  background-image: url("img/navground.jpg");
   color: #ffedcd;
   padding: 3px 0;
   font-size: 18px;
@@ -35,13 +35,10 @@ body {
 
 /*SHOP*/
 
-
 .contact-form{
   padding: 0px 0px 0px;
   text-align: center;
 }
-
-
 
 .contact-form p {
   padding-bottom: 50px;
@@ -67,13 +64,9 @@ body {
   margin-right: 15px;
 }
 
-
-
-
-
 /*FOOTER DEO*/
 footer {
-  background-image: url("antique/img/navground.jpg");
+  background-image: url("img/navground.jpg");
   color: #f2ce8f;
   padding-top: 3px;
   margin-top: 50px;
