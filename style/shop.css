@@ -26,141 +26,19 @@ body {
   color: black;
   background-color: #f2ce8f;
   margin-right: 10px;
-  border-radius: 7px;
+  border-radius: 4px;
 }
 
 .navbar-inverse .navbar-nav li a {
   color: #f2ce8f;
 }
 
-/*SLAJDERI*/
-
-.carousel-caption {
-  top: 30%;
-  transform: translateY(-30);
-  text-transform: uppercase;
-}
-
-.carousel-caption .btn {
-  font-size: 18px;
-  color: #FFFFFF;
-  padding: 7px 25px;
-  background: #04a515;
-  border: 2px solid black;
-  margin-top: 30px;
-  border-radius: 7px;
-}
-
-.carousel-caption h1 {
-  text-shadow: 3px 3px 3px black;
-}
-
-.carousel-caption p {
-    text-shadow: 3px 3px 3px black;
-}
-
-/*Responsive teksta ne funkcionise*/
-
-@media(max-width: 300px) {
-  .carousel-caption{
-    top: 20%;
-  }
-
-  .carousel-caption h1 {
-    font-size: 10px;
-
-  }
-
-  .carousel-caption p {
-    font-size: 10px;
-  }
-
-  .btn {
-    font-size: 10px;
-    margin-top: 25px;
-  }
-
-
-}
-
-/*ABOUT*/
-.col-lg-6{
-  text-align: center;
-}
-
-.col-lg-6 img{
-  border-radius: 10px;
-  padding: 15px 0px 0px;
-}
-
-.col-lg-6 p {
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
-}
-
-.row {
-  text-align: center;
-}
-
-.social {
-  margin-top: 20px;
-}
-
-.social a {
-  font-size: 40px;
-  padding: 25px;
-}
-.fa-facebook {
-  color: #3b5998
-}
-
-.fa-twitter {
-  color: #00aced
-}
-
-.fa-instagram {
-  color: #517fa4
-}
-
-.fa-google-plus {
-  color: #dd4b39
-}
-/*PRODUCTS*/
-
-.caption h4 {
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
-}
-
-.image {
-  margin: 0px auto;
-  width: 300px;
-  height: 300px;
-}
-
-.image img {
-  margin: 0px auto;
-  width: 300px;
-  height: 300px;
-}
-
-/*CONTACT STRANA*/
-
-.iframe-container {
-  margin-top: 60px;
-}
+/*SHOP*/
 
 .contact-form{
-  margin-top: -30px;
   padding: 0px 0px 0px;
   text-align: center;
 }
-
-
 
 .contact-form p {
   padding-bottom: 50px;
@@ -169,6 +47,7 @@ h3 {
 }
 
 .contact-form h2 {
+  margin-top: 100px;
   color: #2c2c2c;
   font-size: 40px;
 }
@@ -178,14 +57,12 @@ h3 {
 }
 
 .contact-form .btn {
-  width: 100%;
+  width: 30%;
   color: #f2ce8f;
-  background: #2c2c2c
+  background: #2c2c2c;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-
-
-
-
 
 /*FOOTER DEO*/
 footer {
